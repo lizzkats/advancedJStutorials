@@ -32,7 +32,7 @@ Stretch Goals:
  Modules|Git basics; let & const; Intro Arrow Function||||||stretch goals
   Time|1 hr|6 hrs|6hrs|6 hrs|6 hrs|TBD|TBD
 
-  @eobaah and @brianb1 will be collaborating on this project.
+  @eobaah and @lizzkats will be collaborating on this project.
 ---
 
 <!-- LICENSE -->
