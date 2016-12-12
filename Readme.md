@@ -11,8 +11,8 @@ Well now you can get an AWESOME, SOLID FOUNDATION to help you with this journey.
 Javascript Tutorials:
 - [ ] Finish entire Full Stack JS Track on Treehouse
 - [ ] Node.js & Express.js Basics (FreeCodeCamp)
-- [ ] Deploy a Node Application to Heroku
-- [ ] [Tic Tac Toe Game] (https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game) 
+- [ ] Deploy Node Application to Heroku
+- [ ] [Tic Tac Toe Game] (https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game)
 - [ ] Git Real tutorial
 
 Stretch Goals:
