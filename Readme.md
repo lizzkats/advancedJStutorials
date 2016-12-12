@@ -12,7 +12,7 @@ Javascript Tutorials:
 - [ ] Finish entire Full Stack JS Track on Treehouse
 - [ ] Node.js & Express.js Basics (FreeCodeCamp)
 - [ ] Deploy a Node Application to Heroku
-- [ ] [Connect Four Game] (http://codepen.io/coderontheroad/pen/GdxEo)
+- [ ] [Connect Four Game](http://codepen.io/coderontheroad/pen/GdxEo).
 - [ ] Git Real tutorial
 
 Stretch Goals:
@@ -29,8 +29,8 @@ Stretch Goals:
 ## Daily goals
 | Mon | Tues | Wed | Thurs | Fri | Sat |Sun|
 ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------
- Modules|Git basics; let & const; Intro Arrow Function||||||stretch goals
-  Time|1 hr|6 hrs|6hrs|6 hrs|6 hrs|TBD|TBD
+ Modules| Git basics; let & const; Intro Arrow Function|||stretch goals|stretch goals|stretch goals|
+  Time|5 hrs|0 hrs|0 hrs|0 hrs|0 hrs|0 hrs|0 hrs
 
   @eobaah and @lizzkats will be collaborating on this project.
 ---
