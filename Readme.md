@@ -11,8 +11,8 @@ Well now you can get an AWESOME, SOLID FOUNDATION to help you with this journey.
 Javascript Tutorials:
 - [ ] Finish entire Full Stack JS Track on Treehouse
 - [ ] Node.js & Express.js Basics (FreeCodeCamp)
-- [ ] Deploy Node Application to Heroku
-- [ ] [Tic Tac Toe Game] (https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game)
+- [ ] Deploy a Node Application to Heroku
+- [ ] [Connect Four Game] (http://codepen.io/coderontheroad/pen/GdxEo)
 - [ ] Git Real tutorial
 
 Stretch Goals:
@@ -25,6 +25,14 @@ Stretch Goals:
 - [ ] Mongo Basics
 - [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
+
+## Daily goals
+| Mon | Tues | Wed | Thurs | Fri | Sat |Sun|
+------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------
+ Modules|Git basics; let & const; Intro Arrow Function||||||stretch goals
+  Time|1 hr|6 hrs|6hrs|6 hrs|6 hrs|TBD|TBD
+
+  @eobaah and @lizzkats will be collaborating on this project.
 ---
 
 <!-- LICENSE -->
