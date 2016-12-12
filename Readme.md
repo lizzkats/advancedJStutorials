@@ -29,7 +29,7 @@ Stretch Goals:
 ## Daily goals
 | Mon | Tues | Wed | Thurs | Fri | Sat |Sun|
 ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------
- Modules|Git basics; let & const; Intro Arrow Function|5-thru 8|9 thru 12|13 thru 16|17 and stretch goals|Stretch goals|stretch goals
+ Modules|Git basics; let & const; Intro Arrow Function||||||stretch goals
   Time|1 hr|6 hrs|6hrs|6 hrs|6 hrs|TBD|TBD
 
   @eobaah and @brianb1 will be collaborating on this project.
