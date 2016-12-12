@@ -3,22 +3,22 @@
 Complete basic and advanced JavaScript Training on TreeHouse and FreeCodeCamp, a high quality interactive tutorial websites.
 ## Context
 
-Do you feel like you are not able to effectively communicate with your team mates on your project? Ever wanted to become a great JavaScript developer? 
+Do you feel like you are not able to effectively communicate with your team mates on your project? Ever wanted to become a great JavaScript developer?
 
-Well now you can get an AWESOME, SOLID FOUNDATION to help you with this journey. This one week long cycle will OVERLOAD and EXPAND your MIND. This project will allow you to have a better understanding of all future javascript goals. 
+Well now you can get an AWESOME, SOLID FOUNDATION to help you with this journey. This one week long cycle will OVERLOAD and EXPAND your MIND. This project will allow you to have a better understanding of all future javascript goals.
 ## Specifications
 
 Javascript Tutorials:
 - [ ] Finish entire Full Stack JS Track on Treehouse
 - [ ] Node.js & Express.js Basics (FreeCodeCamp)
 - [ ] Deploy a Node Application to Heroku
-- [ ] Tic Tac Toe Game 
-- [ ] Git Real tutorial 
+- [ ] [Tic Tac Toe Game] (https://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game) 
+- [ ] Git Real tutorial
 
 Stretch Goals:
 - [ ] Treehouse Express Basics
-- [ ] JQuery Basics (Codecademy) 
-- [ ] Build a REST API with Express (Puppy Database) 
+- [ ] JQuery Basics (Codecademy)
+- [ ] Build a REST API with Express (Puppy Database)
 - [ ] Modifying Data with SQL
 - [ ] Reporting with SQL
 - [ ] SQL Basics
