@@ -11,8 +11,8 @@ Well now you can get an AWESOME, SOLID FOUNDATION to help you with this journey.
 Javascript Tutorials:
 - [ ] Finish entire Full Stack JS Track on Treehouse
 - [ ] Node.js & Express.js Basics (FreeCodeCamp)
-- [ ] Deploy a Node Application to Heroku
 - [ ] [Connect Four Game](http://codepen.io/coderontheroad/pen/GdxEo).
+- [ ] Deploy a Node Application to Heroku
 - [ ] Git Real tutorial
 
 Stretch Goals:
