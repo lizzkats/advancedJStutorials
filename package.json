@@ -1,0 +1,19 @@
+{
+  "name": "connectfour",
+  "version": "1.0.0",
+  "description": "a simple vanillaJS connectfour game",
+  "main": "connectfour.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizzkats/advancedJStutorials.git"
+  },
+  "author": "Lizz, Eugene",
+  "license": "MIT ",
+  "bugs": {
+    "url": "https://github.com/lizzkats/advancedJStutorials/issues"
+  },
+  "homepage": "https://github.com/lizzkats/advancedJStutorials#readme"
+}
