@@ -177,7 +177,7 @@ $(function() {
       drawFade();
       context.fillStyle = fill;
       context.strokeStyle = stroke;
-      context.font = settings.text.size + 'px' + settings.text.font;
+      context.font = settings.text.size + 'px ' + settings.text.font;
       context.shadowColor = stroke;
       context.shadowOffsetX = 3;
       context.shadowOffsetY = 3;
@@ -185,7 +185,7 @@ $(function() {
       let x = (canvas.width - context.measureText(text).width) / 2,
       y = canvas.height / 2;
       context.fillText(text, x, y);
-      context.font = settings.text.size / 2 + "px" + settings.text.font;
+      context.font = settings.text.size / 2 + "px " + settings.text.font;
       let restart = "click to restart";
       context.fillText(restart, (canvas.width - context.measureText(restart).width) / 2, canvas.height -settings.text.padding)
     }
