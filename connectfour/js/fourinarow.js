@@ -24,7 +24,11 @@ $(function() {
       ["", "", "", "", "", "", ""],
       ["", "", "", "", "", "", ""],
       ["", "", "", "", "", "", ""]
-    ], //we can use our function here to determine how many columns and rows
+    ],
+    lastMoveRow = [],
+    lastMoveCol = [],
+    lastMove = [],
+     //we can use our function here to determine how many columns and rows
     canvas, context, winner = '',
     settings = $.extend({
       canvas: {
@@ -85,7 +89,6 @@ $(function() {
       for (let row = 0; row < cells.length; row++){
         for(let col = 0; col < cells[row].length; col++) {
           drawDisk(col, row, cells[row][col]);
-
         }
       }
     }
@@ -93,6 +96,7 @@ $(function() {
       for(let row = 0; row < cells.length; row++) {
         if (cells[row][col] == '') {
           cells[row][col] = name;
+          lastMoveRow = row;
           return true;
         }
       }
@@ -101,7 +105,7 @@ $(function() {
     //column selector to drop token
     function getCol(evt) {
       let rect = canvas.getBoundingClientRect(),
-        x = evt.clientX - rect.left;
+        x = evt.clientX - rect.left; // returns boundary to select collumn
       return Math.floor(x / (settings.disk.diameter + (settings.disk.padding * 2)));
     }
 
@@ -165,7 +169,7 @@ $(function() {
         }
       }
     }
-    function drawFade(){
+    function drawFade(){ // fades the background while the text appeara at the end of the game
       context.shadowOffsetX = 0;
       context.shadowOffsetY = 0;
       context.shadowBlur = 0;
@@ -173,7 +177,7 @@ $(function() {
       context.fillRect(0, 0, canvas.width, canvas.height);
     }
 
-    function drawText(text, fill, stroke) {
+    function drawText(text, fill, stroke) { // text to restart the game
       drawFade();
       context.fillStyle = fill;
       context.strokeStyle = stroke;
@@ -190,10 +194,10 @@ $(function() {
       context.fillText(restart, (canvas.width - context.measureText(restart).width) / 2, canvas.height -settings.text.padding)
     }
 
-    // funny execution syntax- check later
+    // checks to see if there is a winner and then displays message to declare winner
     function identifyWinner() {
-      if (winner == disk.red.name) drawText("Red wins", disk.red.fill, disk.red.stroke);
-      else if (winner == disk.red.name) drawText("Yellow wins", disk.yellow.fill, disk.yellow.stroke);
+      if (winner == disk.red.name) {drawText("Red wins", disk.red.fill, disk.red.stroke); } //
+      else if (winner == disk.yellow.name) {drawText("Yellow wins", disk.yellow.fill, disk.yellow.stroke);}
     }
 
     function hardReset() {
@@ -209,7 +213,7 @@ $(function() {
     drawDisks();
 
 
-    canvas.addEventListener('click', function(evt){
+    canvas.addEventListener('click', function(evt){ // deciding which player gets to move next
       reset();
       if(winner != '') {
         hardReset();
@@ -225,6 +229,18 @@ $(function() {
         }
 
       }
+
+    // store the last row and collumn info and use it for the undo function
+    lastMoveCol = getCol(evt);
+    lastMove = [lastMoveRow, lastMoveCol];
+
+    // create undo function to set the cell from the last move to nothing. And apply reset at the start of function to cleanup board.
+    undoButton.addEventListener('click', function(evt) {
+        reset();
+        cells[lastMoveRow][lastMoveCol] = "";
+        drawDisks();
+    })
+
       drawDisks();
       identifyPatterns();
       identifyWinner();
