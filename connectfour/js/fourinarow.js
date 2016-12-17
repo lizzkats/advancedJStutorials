@@ -85,7 +85,7 @@ $(function() {
 
     }
 
-    function drawDisks() {
+    function placeDisk() {
       for (let row = 0; row < cells.length; row++){
         for(let col = 0; col < cells[row].length; col++) {
           drawDisk(col, row, cells[row][col]);
@@ -210,7 +210,7 @@ $(function() {
       }
     }
 
-    drawDisks();
+    placeDisk();
 
 
     canvas.addEventListener('click', function(evt){ // deciding which player gets to move next
@@ -238,10 +238,10 @@ $(function() {
     undoButton.addEventListener('click', function(evt) {
         reset();
         cells[lastMoveRow][lastMoveCol] = "";
-        drawDisks();
+        placeDisk();
     })
 
-      drawDisks();
+      placeDisk();
       identifyPatterns();
       identifyWinner();
     }, false);
