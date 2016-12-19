@@ -9,28 +9,28 @@ Well now you can get an AWESOME, SOLID FOUNDATION to help you with this journey.
 ## Specifications
 
 Javascript Tutorials:
-- [ ] Finish entire Full Stack JS Track on Treehouse
-- [ ] Node.js & Express.js Basics (FreeCodeCamp)
-- [x] [Connect Four Game](https://github.com/StretchProjects/FourInARow/tree/master).
+- [x] Finish entire Full Stack JS Track on Treehouse
+- [x] Node.js & Express.js Basics (FreeCodeCamp or Treehouse)
+- [x] [Connect Four Game](https://github.com/lizzkats/advancedJStutorials)
 - [ ] Deploy a Node Application to Heroku
-- [ ] Git Real tutorial
+- [x] Git Real tutorial
 
 Stretch Goals:
 - [ ] Treehouse Express Basics
-- [ ] JQuery Basics (Codecademy)
+- [x] JQuery Basics (Codecademy)
 - [ ] Build a REST API with Express (Puppy Database)
 - [ ] Modifying Data with SQL
 - [ ] Reporting with SQL
 - [ ] SQL Basics
 - [ ] Mongo Basics
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
+- [x] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
 
 ## Daily goals
 | Mon | Tues | Wed | Thurs | Fri | Sat |Sun|
 ------------ |------------ |------------ |------------ |------------ |------------ |------------ |------------
- Modules| Git basics; let & const; Intro Arrow Function|||stretch goals|stretch goals|stretch goals|
-  Time|5 hrs|0 hrs|0 hrs|0 hrs|0 hrs|0 hrs|0 hrs
+ Modules| Git basics; let & const; Intro Arrow Function|TreeHouse tutorials|TreeHouse tutorials, Connect 4 app|Connect 4 app|TreeHouse Tutorials|TreeHouse Tutorials|
+  Time|5 hrs|10 hrs|8 hrs|8 hrs|5 hrs|5 hrs|5 hrs
 
   @eobaah and @lizzkats will be collaborating on this project.
 ---
