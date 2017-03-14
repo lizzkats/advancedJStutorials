@@ -6,7 +6,7 @@ A practice project completed at Learners Guild. Spent three days working on tuto
 Javascript Tutorials:
 - [x] Finish entire Full Stack JS Track on Treehouse
 - [x] Node.js & Express.js Basics (FreeCodeCamp or Treehouse)
-- [x] [Connect Four Game](https://github.com/lizzkats/advancedJStutorials)
+- [x] Connect Four Game
 - [x] Git Real tutorial
 - [x] The artifact produced is properly licensed, preferably with the [MIT license](https://opensource.org/licenses/MIT).
 
